@@ -57,17 +57,17 @@ form = {
 url_rsa = "https://line1-sdk-center-login-sh.biligame.net/api/client/rsa"
 url_login = "https://line1-sdk-center-login-sh.biligame.net/api/client/login"
 
-user_id = "13726891697"
-password = "jerryren0820"
+user_id = ""
+password = ""
 
 def get_rsa_form(form_):
     form2 = format_form(form_)
-    sign = os.popen("java -jar BiliLogin.jar \"{}\"".format(form2)).read().replace('\n','')
+    sign = os.popen("java -jar libs/BiliLogin.jar \"{}\"".format(form2)).read().replace('\n','')
     return form2 + "&sign={}".format(sign)
 
 def get_login_form(form_, passwd):
     form2 = format_form(form_)
-    js = os.popen("java -jar BiliLogin.jar \"{}\" \"{}\"".format(form2, passwd)).read()
+    js = os.popen("java -jar libs/BiliLogin.jar \"{}\" \"{}\"".format(form2, passwd)).read()
     sign = re.findall(r"sign=(\S+?),", js)[0]
     pwd = re.findall(r"pwd=(\S+?)}", js)[0]
     return form2 + "&sign={}&pwd={}".format(sign, pwd)
