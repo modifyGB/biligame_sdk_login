@@ -1,8 +1,9 @@
 from login import *
 
-user_id = ""
-password = ""
-version = 1
+user_id = "" # 用户名
+password = "" # 密码
+version = 1 # api接口版本
+
 
 if __name__ == "__main__":
     js = login(user_id, password, 1)
