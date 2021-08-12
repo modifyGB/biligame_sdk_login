@@ -1,0 +1,87 @@
+v1
+
+operators	1
+merchant_id	328
+isRoot	1
+domain_switch_count	0
+sdk_type	1
+sdk_log_type	1
+timestamp	1628330079430
+support_abis	x86,armeabi-v7a,armeabi
+access_key	fd0e31b724a903db991c0d157d30bcda_sh
+sdk_ver	3.10.4
+oaid	
+dp	
+original_domain	
+imei	540000000140886
+version	1
+udid	KREhESMUdUV0RyIXaxdrEWlYPws5WipAJA==
+apk_sign	4502a02a00395dec05a4134ad593224d
+platform_type	3
+old_buvid	XZ7F9B979B64C22B1F124F89C659252A8A09B
+android_id	dc428b9ba0b6b4d1
+sign	f1ee279f2560d639fe42f75405004e8c
+fingerprint	
+mac	08:00:27:A0:13:E5
+server_id	1178
+domain	line1-sdk-center-login-sh.biligame.net
+app_id	952
+pwd	
+version_code	29
+net	4
+pf_ver	6.0.1
+cur_buvid	XZ7F9B979B64C22B1F124F89C659252A8A09B
+c	1
+brand	HUAWEI
+client_timestamp	1628330078693
+channel_id	1
+uid	
+game_id	952
+user_id	
+ver	1.5.60
+model	ALP-AL00
+
+---------------------------------------------------------------------------
+v3
+
+merchant_id	1
+operators	1
+domain_switch_count	0
+sdk_type	1
+sdk_log_type	1
+timestamp	1628420979231
+support_abis	x86,armeabi-v7a,armeabi
+access_key	
+sdk_ver	4.5.5
+oaid	
+dp	1440*810
+original_domain	https://line1-sdk-center-login-sh.biligame.net
+ad_ext	
+imei	540000000140886
+version	3
+udid	KREhESMUdUV0RyIXaxdrEWlYPws5WipAJA==
+apk_sign	4502a02a00395dec05a4134ad593224d
+platform_type	3
+old_buvid	XZ7F9B979B64C22B1F124F89C659252A8A09B
+android_id	dc428b9ba0b6b4d1
+current_env	0
+app_ver	3.4.7
+mac	08:00:27:A0:13:E5
+server_id	1592
+domain	line1-sdk-center-login-sh.biligame.net
+app_id	1370
+pwd	
+version_code	132
+net	4
+pf_ver	6.0.1
+platform	3
+cur_buvid	XZ7F9B979B64C22B1F124F89C659252A8A09B
+brand	HUAWEI
+is_root	1
+channel_id	1
+uid	
+game_id	1370
+user_id	
+ad_info	
+model	ALP-AL00
+sign	e847bc6da532bd1807562add856a5f96
