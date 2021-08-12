@@ -1,7 +1,7 @@
 from login import *
 
-user_id = "13726891697"
-password = "jerryren0820"
+user_id = ""
+password = ""
 version = 1
 
 if __name__ == "__main__":
